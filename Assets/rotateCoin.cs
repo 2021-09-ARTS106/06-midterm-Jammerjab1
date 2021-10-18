@@ -13,7 +13,7 @@ public class rotateCoin : MonoBehaviour
     // Update is called once per frame
     void Update ()
     {
-        transform.Rotate (0,1,0*Time.deltaTime); //rotates 50 degrees per second around z axis
+        transform.Rotate (0,2,0*Time.deltaTime); //rotates 50 degrees per second around z axis
     }
 }
 
